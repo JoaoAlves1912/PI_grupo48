@@ -41,7 +41,7 @@ $medicamentos = isset($_SESSION['medicamentos']) ? $_SESSION['medicamentos'] : [
 
         <!-- Lista de Sintomas -->
         <div class="sintomas" id="listaSintomas">
-            <h2>Histórico de Sintomas</h2>
+            <h2>Horário Medicamentos</h2>
             <!-- Sintomas serão adicionados dinamicamente -->
             <?php foreach ($medicamentos as $medicamento): ?>
                 <form action="../CONTROLLERS/removermed.php" method="post">
